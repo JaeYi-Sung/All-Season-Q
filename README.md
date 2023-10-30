@@ -30,7 +30,8 @@
 - Arraying components according to ratio of view using vw, vh, rem
 - Layering with z-index for button and decoration
 - styling each page of season (spring, summer, autumn, winter) for concept
-</br>
+
+
 #### JavaScript  
 - Changing basic page with current date
 - Navigating page each other
