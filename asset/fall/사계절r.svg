@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 635.41 479.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0638e;
+        font-family: HelveticaNeue-BoldItalic, 'Helvetica Neue';
+        font-size: 180px;
+        font-style: italic;
+        font-weight: 700;
+        stroke: #e3ceff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <text class="cls-1" transform="translate(209.44 175.75)"><tspan x="0" y="0">All</tspan><tspan x="-208.44" y="216">Season</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,1323 @@
+
+.Back-Spring {
+    display: none;
+}
+
+.Back-Summer {
+    display: none;
+}
+
+.Back-Fall {
+    display: none;
+}
+
+.Back-Winter {
+    display: none;
+}
+
+html[data-season=Spring]{
+   .Back-Spring{
+        display: block;
+   }
+}
+html[data-season=Summer]{
+    .Back-Summer{
+        display: block;
+    }
+}
+html[data-season=Fall]{
+   .Back-Fall {
+        display: block;
+   }
+}
+html[data-season=Winter]{
+    .Back-Winter {
+        display: block;
+    }
+}
+
+$primary : #ABA5F3;
+$sub_primary : #D2CEFF;
+$primary_pink : #FDD8F3;
+$basic_black : #000000;
+$basic_White : #ffffff;
+$heart_pink : #FFDFEC;
+
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+html[data-season=Winter] {
+    .Back-Winter{
+        width: 100vw;
+        height: 100vh;
+        margin : 0px 0px;
+        padding: 0px 0px;
+        background: linear-gradient($primary_pink, $basic_White);
+        font-family: 'Noto Sans KR', sans-serif;
+    
+        margin: 0rem 0rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;    //가로 정렬
+        align-items: center;    //세로 정렬
+        flex-direction: column;     //아이템 위아래 정렬
+        z-index: 1;
+    }
+}
+
+html[data-season=Spring] {
+    .Back-Spring{
+        width: 100vw;
+        height: 100vh;
+        margin : 0px 0px;
+        padding: 0px 0px;
+        background: linear-gradient(-45deg, #C4EB8F, #D3F7CA, #DDF8A6);
+        font-family: 'Noto Sans KR', sans-serif;
+    
+        margin: 0rem 0rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;    //가로 정렬
+        align-items: center;    //세로 정렬
+        flex-direction: column;     //아이템 위아래 정렬
+        //z-index: 1;
+    }
+
+    .S1{
+        width: 70vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .s1{
+        width: 70vw;
+        padding: 0px 0px;
+    }
+
+    .S2{
+        width: 70vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        z-index: 1;
+    }
+
+    .s2{
+        width: 70vw;
+        padding: 0px 0px;
+    }
+
+    .S3{
+        //height: 7rem;
+        width: 10vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 30vh;
+        right: 0;
+        z-index: 1;
+    }
+
+    .s3{
+        width: 10vw;
+        //height: 70vh;
+        padding: 0px 0px;
+    }
+
+    .S4{
+        width: 30vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 40vh;
+        left: 0;
+        z-index: 1;
+    }
+
+    .s4{
+        width: 30vw;
+        padding: 0px 0px;
+    }
+
+    .S5{
+        width: 100vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 20vh;
+        z-index: 1;
+    }
+
+    .s5{
+        width: 100vw;
+        padding: 0px 0px;
+    }
+
+    .S6{
+        width: 100vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 0vh;
+        right: 0;
+        z-index: 1;
+    }
+
+    .s6{
+        width: 100vw;
+        padding: 0px 0px;
+    }
+
+    .S7{
+        width: 100vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 10vh;
+        left: 0;
+        z-index: 1;
+    }
+
+    .s7{
+        width: 100vw;
+        padding: 0px 0px;
+    }
+
+    .S8{
+        width: 50vw;
+        //height: 0vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        z-index: 1;
+    }
+
+    .s8{
+        width: 50vw;
+        //height: 90vh;
+        padding: 0px 0px;
+    }
+
+    .ss1{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #B3EEF6;
+        box-shadow: 0px 0px 10vh 10vh #B3EEF6;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        top: 22vh;
+        left: 15vw;
+        width: 5vh;
+        height: 5vh;
+    }
+
+    .ss2{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #B3EEF6;
+        box-shadow: 0px 0px 8vh 8vh #B3EEF6;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        bottom: 13vh;
+        right: 22vw;
+        width: 2vh;
+        height: 2vh;
+    }
+
+    .ss3{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #B2E86B;
+        box-shadow: 0px 0px 10vh 10vh #B2E86B;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        bottom: 27vh;
+        left: 20vw;
+        width: 2vh;
+        height: 2vh;
+    }
+
+    .ss4{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #B2E86B;
+        box-shadow: 0px 0px 5vh 5vh #B2E86B;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        top: 37vh;
+        right: 5vw;
+        width: 2vh;
+        height: 2vh;
+    }
+
+    .ss5{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 7vh 7vh #FFFFF0;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        top: 8vh;
+        right: 32vw;
+        width: 2vh;
+        height: 2vh;
+    }
+
+    .titleSpring{
+        width: 60vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 3vh;
+        left: 3vw;
+        z-index: 2;
+    }
+
+    .titlespring{
+        padding: 0px 0px;
+        width: calc(100vw);
+    }
+
+    .SpringName {
+        height: 7vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 21vh;
+        left: 3rem;
+        z-index: 2;
+        
+    }
+    
+    .springname {
+        padding: 0px 0px;
+        height: calc(7vh);
+    }
+
+    .SpringSeason{
+        height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 15vh;
+        right: 4vw;
+        z-index: 2;
+    }
+
+    .SpringMove {
+        height: 15vh;
+        width: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    .SpringToSummer{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: -3.5vh;
+        left: 9vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    
+    .SpringToFall{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 3.5vh;
+        left: -3.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    
+    .SpringToWinter{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 3.5vh;
+        left: -1vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+
+    .springseason{
+        padding: 0px 0px;
+        height: calc(15vh);
+    }
+
+    .SpringPhoto{
+        height: 38vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    .springphoto {
+        padding: 0px 0px;
+        height: calc(38vh);
+    }
+
+    .SpringSong {
+        height: 8vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        //top: 34.5vh;
+        bottom : 24vh;
+        z-index: 2;
+    }
+    
+    .springsong {
+        padding: 0px 0px;
+        height: calc(8vh);
+    }
+
+    .SpringCover {
+        height: 6vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        right: 11vw;
+        bottom : 10vh;
+    }
+    
+    .springcover {
+        padding: 0px 0px;
+        height: calc(6vh);
+    }
+
+    .SpringLine{
+        height: 6vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        left: 5rem;
+        bottom : 17vh;
+        font-size: 0.6rem;
+        text-shadow: 0px 0px 4px #FFFF8A;
+        text-align: center;
+    }
+
+    .SpringButton {
+        height: 6vh;
+        width: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        left: 3rem;
+        bottom : 8vh;
+        z-index: 10;
+    }
+    
+    .SpringPlay {
+        position: absolute;
+        padding: 0px 0px;
+        height: calc(6vh);
+        z-index: 10;
+        left: 0rem;
+        top: 0.5rem;
+        z-index: 10;
+    }
+
+    .SpringFour {
+        position: absolute;
+        padding: 0px 0px;
+        height: calc(6vh);
+        z-index: 10;
+        left: 9vh;
+        top: 0.5rem;
+        z-index: 10;
+    }
+
+    .springplay {
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        width: 1vh;
+        height: 1vh;
+        //opacity: 0.5;
+        //box-shadow: 0px 0px 6px 6px #ffffff;
+        left: 2.5vh;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 4vh 4vh #FFFFF0;
+        //top: 0.1rem;
+      }
+    
+      .springfour {
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        //background-color: white;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        width: 1vh;
+        height: 1vh;
+        //opacity: 0.5;
+        //box-shadow: 0px 0px 6px 6px #ffffff;
+        left: 12vh;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 4vh 4vh #FFFFF0;
+        //top: 0.1rem;
+      }
+
+      .SpringCopy {
+        //height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 1.5vh;
+    }
+    
+    .springcopy {
+        padding: 0px 0px;
+        height: calc(3vh);
+    }
+}
+
+html[data-season=Summer] {
+    .Back-Summer{
+        width: 100vw;
+        height: 100vh;
+        margin : 0px 0px;
+        padding: 0px 0px;
+        background: linear-gradient(#050608, #3D3E5A, #D0CDEC, #F8F7FC);
+        font-family: 'Noto Sans KR', sans-serif;
+    
+        margin: 0rem 0rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;    //가로 정렬
+        align-items: center;    //세로 정렬
+        flex-direction: column;     //아이템 위아래 정렬
+        //z-index: -2;
+    }
+
+    .빛1{
+        width: 4rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+    }
+
+    .빛_1{
+        width: 4rem;
+        padding: 0px 0px;
+    }
+
+    .빛2{
+        width: 10rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 2.2rem;
+        right: 0rem;
+    }
+
+    .빛_2{
+        width: 10rem;
+        padding: 0px 0px;
+    }
+
+    .빛3{
+        width: 10rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 17rem;
+        right: 0rem;
+    }
+
+    .빛_3{
+        width: 10rem;
+        padding: 0px 0px;
+    }
+
+    .빛4{
+        width: 10rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 27rem;
+        left: 0rem;
+    }
+
+    .빛_4{
+        width: 10rem;
+        padding: 0px 0px;
+    }
+
+    .빛5{
+        width: 10rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 3rem;
+        left: 0rem;
+    }
+
+    .빛_5{
+        width: 10rem;
+        padding: 0px 0px;
+    }
+
+    .빛6{
+        width: 10rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 5rem;
+        left : 13rem;
+        z-index: 3;
+    }
+
+    .빛_6{
+        width: 10rem;
+        padding: 0px 0px;
+    }
+
+    .메인빛{
+        width: 20rem;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 4rem;
+        // bottom: 5rem;
+        // left : 13rem;
+        //z-index: 10;
+    }
+
+    .lightMain{
+        width: 20rem;
+        padding: 0px 0px;
+    }
+
+    .Title2{
+        width: 100vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 2vh;
+        z-index: 2;
+    }
+    
+    .가사L {
+        padding: 0px 0px;
+        position: absolute;
+        left: 0;
+        top: 6rem;
+        font-size: 0.6rem;
+        text-align: left;
+        //z-index: 1;
+    }
+
+    .가사R{
+        padding: 0px 0px;
+        position: absolute;
+        right: 0;
+        top: 6rem;
+        font-size: 0.6rem;
+        text-align: right;
+        //z-index: -1;
+    }
+
+    .가사F{
+        padding: 0px 0px;
+        position: absolute;
+        text-align: center;
+        top: 12rem;
+        font-size: 0.6rem;
+        text-shadow: 0px 0px 4px $basic_White;
+        z-index: 5;
+    }
+
+    .star {
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        //z-index: 0;
+        
+      }
+      
+      
+    .SummerNight{
+        padding: 0px 0px;
+        width: calc(100vw);
+        //height: calc(20vh);
+    }
+
+    .Photo2{
+        height: 38vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 21vh;
+        z-index: 2;
+    }
+    
+    .Qphoto2 {
+        padding: 0px 0px;
+        height: calc(38vh);
+        //z-index: 100;
+    }
+
+    .Covers{
+        height: 5vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 32vw;
+        z-index: 2;
+    }
+    
+    .TheBoyz2 {
+        padding: 0px 0px;
+        height: calc(5vh);
+    }
+
+    .Name2 {
+        height: 8vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 34.5vh;
+        //bottom : 15vh;
+        z-index: 2;
+    }
+    
+    .Jichangmin2 {
+        padding: 0px 0px;
+        height: calc(8vh);
+    }
+
+
+    .SummerSeason{
+        height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 6vh;
+        //right: 4vw;
+        z-index: 100;
+    }
+
+    .SummerMove {
+        height: 15vh;
+        width: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        z-index: 100;
+    }
+    
+    .SummerToSpring{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: -3.5vh;
+        left: 1.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+        z-index: 100;
+    }
+    
+    .SummerToFall{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 3.5vh;
+        left: -3.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+        z-index: 100;
+    }
+    
+    .SummerToWinter{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 3.5vh;
+        left: -1vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+        z-index: 100;
+    }
+
+    .summerseason{
+        padding: 0px 0px;
+        height: calc(15vh);
+    }
+
+    .SeasonBall2 {
+        padding: 0px 0px;
+        height: calc(15vh);
+    }
+
+    .SummerButton {
+        width: 80vw;
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;        
+        align-items: center;
+        position: absolute;
+        bottom: 9vh;
+        z-index: 99;
+    }
+    
+    .SummerPlay {
+        height: 6.5vh;
+        left: 0;
+        z-index: 99;
+    }
+    
+    .SummerFour {
+        height: 7.5vh;
+        z-index: 99;
+    }
+
+    .Copyright2 {
+        //height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 1.5vh;
+    }
+    
+    .copys2 {
+        padding: 0px 0px;
+        height: calc(3vh);
+    }
+}
+
+html[data-season=Fall] {
+.Back-Fall{
+    width: 100vw;
+    height: 100vh;
+    margin : 0px 0px;
+    padding: 0px 0px;
+    background: linear-gradient($primary, $sub_primary, $primary_pink);
+    font-family: 'Noto Sans KR', sans-serif;
+
+    margin: 0rem 0rem;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;    //가로 정렬
+    align-items: center;    //세로 정렬
+    flex-direction: column;     //아이템 위아래 정렬
+    //z-index: -2;
+}
+
+.pinkHeart {
+
+    position: absolute;
+    font-size: 20vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 18px $heart_pink;
+    color: transparent;
+    top: 11vh;
+    left: -3vh;
+    //z-index: -1;
+}
+
+.pinkHeart2 {
+
+    position: absolute;
+    font-size: 13vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 10px $heart_pink;
+    color: transparent;
+    bottom: 20vh;
+    right: 0vh;
+    //z-index: -1;
+}
+
+.pinkHeart3 {
+
+    position: absolute;
+    font-size: 4vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 4px $heart_pink;
+    color: transparent;
+    bottom: 20vh;
+    left: 4vh;
+    //z-index: -1;
+}
+
+
+.pinkHeart5 {
+
+    position: absolute;
+    font-size: 2vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 3px $heart_pink;
+    color: transparent;
+    top: -2vh;
+    right: -2vh;
+    //z-index: 1;
+}
+
+.Heart2 {
+
+    position: absolute;
+    font-size: 2.5vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 4px $basic_White;
+    color: transparent;
+    top: 2vh;
+    right: 10px;
+    //z-index: -1;
+}
+
+//photo
+.pinkHeart4 {
+
+    position: absolute;
+    font-size: 3vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 3px $heart_pink;
+    color: transparent;
+    top: 40vh;
+    // left : 87vw;
+    right: 0.5vh;
+    //z-index: -1;
+}
+
+.Heart1 {
+
+    position: absolute;
+    font-size: 5vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 5px $basic_White;
+    color: transparent;
+    top: 50vh;
+    right: 87vw;
+    //z-index: -1;
+}
+
+.Heart3 {
+
+    position: absolute;
+    font-size: 2.3vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 3px $basic_White;
+    color: transparent;
+    top: 44vh;
+    left: 92vw;
+    //z-index: -1;
+}
+
+.Heart4 {
+
+    position: absolute;
+    font-size: 3vh;
+    //color: $heart_pink;
+    text-shadow: 0px 0px 4px $basic_White;
+    color: transparent;
+    bottom: 5vh;
+    left: 12vw;
+    //z-index: -1;
+}
+
+//light
+.Light1 {
+    height: 10vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 16vh;
+    left: 13vh;
+    //z-index: -1;
+}
+
+.light1 {
+    padding: 0px 0px;
+    height: calc(10vh);
+}
+
+.Light2 {
+    height: 12vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 26.5vh;
+    right: 0;
+    //z-index: -1;
+}
+
+.light2 {
+    padding: 0px 0px;
+    height: calc(12vh);
+}
+
+.Light3 {
+    height: 7vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 42vh;
+    left: 1.5vh;
+    //z-index: -1;
+}
+
+.light3 {
+    padding: 0px 0px;
+    height: calc(7vh);
+}
+
+.Light4 {
+    height: 8vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 68vh;
+    left: 0;
+    //z-index: -1;
+}
+
+.light4 {
+    padding: 0px 0px;
+    height: calc(8vh);
+}
+
+.Light5 {
+    height: 10vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 56vh;
+    right: 0vh;
+    //z-index: -1;
+}
+
+.light5 {
+    padding: 0px 0px;
+    height: calc(10vh);
+}
+
+.Title{
+    width: 100vw;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 3vh;
+}
+
+.FallinLove{
+    padding: 0px 0px;
+    width: calc(100vw);
+    //height: calc(20vh);
+}
+
+.Song{
+    height: 5vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    top: 26vh;
+    right: 10vw;
+}
+
+.GoodbyeFall {
+    padding: 0px 0px;
+    height: calc(5vh);
+}
+
+.Photo{
+    height: 38vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+}
+
+.Qphoto {
+    padding: 0px 0px;
+    height: calc(38vh);
+}
+
+.Name {
+    height: 9vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    bottom: 23vh;
+}
+
+.Jichangmin {
+    padding: 0px 0px;
+    height: calc(9vh);
+}
+
+.Season {
+    height: 15vh;
+    width: 100vw;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;        
+    align-items: center;
+    position: absolute;
+    bottom: 7.5vh;
+    //z-index: 100;
+}
+
+.MoveButton {
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+}
+
+.FallToSpring{
+    padding: 0px 0px;
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    top: 1.5vh;
+    left: 1.5vh;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.FallToSummer{
+    padding: 0px 0px;
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    top: 1.5vh;
+    left: 3.5vh;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.FallToWinter{
+    padding: 0px 0px;
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    top: 3.5vh;
+    left: 9vh;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.SeasonBall {
+    padding: 0px 0px;
+    height: calc(15vh);
+}
+
+
+.TheBoyz {
+    padding: 0px 0px;
+    //width: 22vw;
+    height: 6vh;
+    left: 0;
+}
+
+.Button {
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        
+    align-items: center;
+}
+
+.FallPlay {
+    height: 10vh;
+}
+
+.FallFour {
+    height: 7vh;
+}
+
+.Copyright {
+    //height: 15vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    position: absolute;
+    bottom: 1.5vh;
+}
+
+.copys {
+    padding: 0px 0px;
+    height: calc(3vh);
+}
+
+}
+
+@keyframes twinkling {
+    0% {
+      box-shadow: 0 0 10px 0px rgb(255, 255, 255, 0.1);
+    }
+  
+    50% {
+      box-shadow: 0 0 10px 2px rgb(255, 255, 255, 0.4);
+    }
+  
+    100% {
+      box-shadow: 0 0 10px 0px rgb(255, 255, 255, 0.1);
+    }
+  }
+  
+  @keyframes twinklingWithNoBoxShadow {
+    0% {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 1);
+    }
+    20% {
+      background-color: #ffc4c4;
+      box-shadow: 0 0 10px 0px rgb(255, 196, 196, 1);
+    }
+    80% {
+      background-color: #c4cfff;
+      box-shadow: 0 0 10px 0px rgb(196, 207, 255, 1);
+    }
+    100% {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.2);
+    }
+  }
