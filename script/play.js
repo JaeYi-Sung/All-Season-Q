@@ -42,6 +42,41 @@ document.querySelector(".FallPlay").addEventListener("click", function()
     }
 
     else{
+        if(is_play1){
+            spring.pause();
+            is_play1 = false;
+        }
+
+        if(is_play2){
+            summer.pause();
+            is_play2 = false;
+        }
+
+        if(is_play4){
+            winter.pause();
+            is_play4 = false;
+        }
+
+        if(is_play5){
+            spring4.pause();
+            is_play5 = false;
+        }
+
+        if(is_play6){
+            summer4.pause();
+            is_play6 = false;
+        }
+
+        if(is_play7){
+            fall4.pause();
+            is_play7 = false;
+        }
+
+        if(is_play8){
+            winter4.pause();
+            is_play8 = false;
+        }
+
         fall.loop = true;
         fall.play();
         is_play3 = true;
@@ -60,6 +95,42 @@ document.querySelector(".FallFour").addEventListener("click", function()
     }
 
     else{
+
+        if(is_play1){
+            spring.pause();
+            is_play1 = false;
+        }
+
+        if(is_play2){
+            summer.pause();
+            is_play2 = false;
+        }
+
+        if(is_play3){
+            fall.pause();
+            is_play3 = false;
+        }
+
+        if(is_play4){
+            winter.pause();
+            is_play4 = false;
+        }
+
+        if(is_play5){
+            spring4.pause();
+            is_play5 = false;
+        }
+
+        if(is_play6){
+            summer4.pause();
+            is_play6 = false;
+        }
+
+        if(is_play8){
+            winter4.pause();
+            is_play8 = false;
+        }
+
         fall4.loop = true;
         fall4.play();
         is_play7 = true;
@@ -107,6 +178,47 @@ document.querySelector(".SummerPlay").addEventListener("click", function(){
    }
 
    else{
+
+    if(is_play1){
+        spring.pause();
+        is_play1 = false;
+    }
+
+    // if(is_play2){
+    //     summer.pause();
+    //     is_play2 = false;
+    // }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    if(is_play4){
+        winter.pause();
+        is_play4 = false;
+    }
+
+    if(is_play5){
+        spring4.pause();
+        is_play5 = false;
+    }
+
+    if(is_play6){
+        summer4.pause();
+        is_play6 = false;
+    }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    if(is_play8){
+        winter4.pause();
+        is_play8 = false;
+    }
+
        summer.loop = true;
        summer.play();
        is_play2 = true;
@@ -125,9 +237,51 @@ document.querySelector(".SummerFour").addEventListener("click", function(){
    }
 
    else{
-       summer4.loop = true;
-       summer4.play();
-       is_play6 = true;
+
+    if(is_play1){
+        spring.pause();
+        is_play1 = false;
+    }
+
+    if(is_play2){
+        summer.pause();
+        is_play2 = false;
+    }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    if(is_play4){
+        winter.pause();
+        is_play4 = false;
+    }
+
+    if(is_play5){
+        spring4.pause();
+        is_play5 = false;
+    }
+
+    // if(is_play6){
+    //     summer4.pause();
+    //     is_play6 = false;
+    // }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    if(is_play8){
+        winter4.pause();
+        is_play8 = false;
+    }
+
+    summer4.loop = true;
+    summer4.play();
+    is_play6 = true;
+
    }
 
 });
@@ -168,6 +322,47 @@ document.querySelector(".SpringPlay").addEventListener("click", function(){
    }
 
    else{
+
+    // if(is_play1){
+    //     spring.pause();
+    //     is_play1 = false;
+    // }
+
+    if(is_play2){
+        summer.pause();
+        is_play2 = false;
+    }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    if(is_play4){
+        winter.pause();
+        is_play4 = false;
+    }
+
+    if(is_play5){
+        spring4.pause();
+        is_play5 = false;
+    }
+
+    if(is_play6){
+        summer4.pause();
+        is_play6 = false;
+    }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    if(is_play8){
+        winter4.pause();
+        is_play8 = false;
+    }
+        
        spring.loop = true;
        spring.play();
        is_play1 = true;
@@ -186,6 +381,47 @@ document.querySelector(".SpringFour").addEventListener("click", function(){
    }
 
    else{
+
+    if(is_play1){
+        spring.pause();
+        is_play1 = false;
+    }
+
+    if(is_play2){
+        summer.pause();
+        is_play2 = false;
+    }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    if(is_play4){
+        winter.pause();
+        is_play4 = false;
+    }
+
+    // if(is_play5){
+    //     spring4.pause();
+    //     is_play5 = false;
+    // }
+
+    if(is_play6){
+        summer4.pause();
+        is_play6 = false;
+    }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    if(is_play8){
+        winter4.pause();
+        is_play8 = false;
+    }
+
        spring4.loop = true;
        spring4.play();
        is_play5 = true;
@@ -215,4 +451,148 @@ spring4.addEventListener("play", function() {
 
 spring4.addEventListener("ended", function(){
     is_play5 = false;
+});
+
+
+//겨울
+document.querySelector(".WinterPlay").addEventListener("click", function(){
+
+    console.log("청춘 재생");
+
+    //🚨 이미 켜져 있으면 끄기
+    if(is_play4){
+       winter.pause();
+       is_play4 = false;
+   }
+
+   else{
+
+    if(is_play1){
+        spring.pause();
+        is_play1 = false;
+    }
+
+    if(is_play2){
+        summer.pause();
+        is_play2 = false;
+    }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    // if(is_play4){
+    //     winter.pause();
+    //     is_play4 = false;
+    // }
+
+    if(is_play5){
+        spring4.pause();
+        is_play5 = false;
+    }
+
+    if(is_play6){
+        summer4.pause();
+        is_play6 = false;
+    }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    if(is_play8){
+        winter4.pause();
+        is_play8 = false;
+    }
+
+       winter.loop = true;
+       winter.play();
+       is_play4 = true;
+   }
+
+});
+
+document.querySelector(".WinterFour").addEventListener("click", function(){
+
+    console.log("겨울 봄 여름 가을");
+
+    //🚨 이미 켜져 있으면 끄기
+    if(is_play8){
+       winter4.pause();
+       is_play8 = false;
+   }
+
+   else{
+
+    if(is_play1){
+        spring.pause();
+        is_play1 = false;
+    }
+
+    if(is_play2){
+        summer.pause();
+        is_play2 = false;
+    }
+
+    if(is_play3){
+        fall.pause();
+        is_play3 = false;
+    }
+
+    if(is_play4){
+        winter.pause();
+        is_play4 = false;
+    }
+
+    if(is_play5){
+        spring4.pause();
+        is_play5 = false;
+    }
+
+    if(is_play6){
+        summer4.pause();
+        is_play6 = false;
+    }
+
+    if(is_play7){
+        fall4.pause();
+        is_play7 = false;
+    }
+
+    // if(is_play8){
+    //     winter4.pause();
+    //     is_play8 = false;
+    // }
+
+       winter4.loop = true;
+       winter4.play();
+       is_play8 = true;
+   }
+
+});
+
+winter.addEventListener("pause", function() {
+    is_play4 = false;
+});
+
+winter.addEventListener("play", function() {
+    is_play4 = true;
+});
+
+winter.addEventListener("ended", function(){
+    is_play4 = false;
+});
+
+winter4.addEventListener("pause", function() {
+    is_play8 = false;
+});
+
+winter4.addEventListener("play", function() {
+    is_play8 = true;
+});
+
+winter4.addEventListener("ended", function(){
+    is_play8 = false;
 });

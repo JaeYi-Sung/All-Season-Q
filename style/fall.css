@@ -47,7 +47,7 @@ html[data-season=Winter] .Back-Winter {
   height: 100vh;
   margin: 0px 0px;
   padding: 0px 0px;
-  background: linear-gradient(#FDD8F3, #ffffff);
+  background: linear-gradient(#34A8E1, #96D7F5, #C6EAFA);
   font-family: "Noto Sans KR", sans-serif;
   margin: 0rem 0rem;
   padding: 0px 0px;
@@ -56,6 +56,373 @@ html[data-season=Winter] .Back-Winter {
   align-items: center;
   flex-direction: column;
   z-index: 1;
+}
+html[data-season=Winter] .titleWinter {
+  width: 100vw;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5vh;
+  z-index: 3;
+}
+html[data-season=Winter] .titlewinter {
+  padding: 0px 0px;
+  width: 100vw;
+}
+html[data-season=Winter] .WinterPhoto {
+  height: 38vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 27vh;
+  z-index: 10;
+}
+html[data-season=Winter] .winterphoto {
+  padding: 0px 0px;
+  height: 38vh;
+}
+html[data-season=Winter] .ww1 {
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  border-radius: 50%;
+  background-color: #EAF8FF;
+  box-shadow: 0px 0px 10vh 10vh #EAF8FF;
+  position: absolute;
+  overflow: hidden;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 0;
+  top: 52vh;
+  left: 10vw;
+  width: 7vh;
+  height: 5vh;
+}
+html[data-season=Winter] .ww2 {
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  border-radius: 50%;
+  background-color: #EAF8FF;
+  box-shadow: 0px 0px 8vh 8vh #EAF8FF;
+  position: absolute;
+  overflow: hidden;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 0;
+  bottom: 32vh;
+  left: 20vw;
+  width: 10vh;
+  height: 5vh;
+}
+html[data-season=Winter] .ww3 {
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  border-radius: 50%;
+  background-color: #EAF8FF;
+  box-shadow: 0px 0px 10vh 10vh #EAF8FF;
+  position: absolute;
+  overflow: hidden;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 0;
+  bottom: 38vh;
+  right: 20vw;
+  width: 12vh;
+  height: 5vh;
+}
+html[data-season=Winter] .ww4 {
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  border-radius: 50%;
+  background-color: #EAF8FF;
+  box-shadow: 0px 0px 7vh 7vh #EAF8FF;
+  position: absolute;
+  overflow: hidden;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 0;
+  top: 50vh;
+  right: 5vw;
+  width: 18vh;
+  height: 5vh;
+}
+html[data-season=Winter] .WinterSong {
+  height: 10vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 27vh;
+  z-index: 2;
+}
+html[data-season=Winter] .wintersong {
+  padding: 0px 0px;
+  height: 10vh;
+}
+html[data-season=Winter] .WinterCover {
+  height: 5vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 15vw;
+  bottom: 23vh;
+}
+html[data-season=Winter] .wintercover {
+  padding: 0px 0px;
+  height: 5vh;
+}
+html[data-season=Winter] .WinterName {
+  height: 7vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15vh;
+  left: 50vw;
+  z-index: 2;
+}
+html[data-season=Winter] .wintername {
+  padding: 0px 0px;
+  height: 7vh;
+}
+html[data-season=Winter] .WinterSeason {
+  height: 15vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10vh;
+  left: 10vw;
+  z-index: 10;
+}
+html[data-season=Winter] .WinterMove {
+  height: 15vh;
+  width: 15vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+}
+html[data-season=Winter] .WinterToSpring {
+  padding: 0px 0px;
+  position: relative;
+  height: 5vh;
+  width: 5vh;
+  top: -3.5vh;
+  left: 1.5vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+html[data-season=Winter] .WinterToSummer {
+  padding: 0px 0px;
+  position: relative;
+  height: 5vh;
+  width: 5vh;
+  top: -3.5vh;
+  left: 3.5vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+html[data-season=Winter] .WinterToFall {
+  padding: 0px 0px;
+  position: relative;
+  height: 5vh;
+  width: 5vh;
+  top: 3.5vh;
+  left: -8.5vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+html[data-season=Winter] .winterseason {
+  padding: 0px 0px;
+  height: 15vh;
+}
+html[data-season=Winter] .WinterButton {
+  height: 6vh;
+  width: 15vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 3rem;
+  bottom: 8vh;
+  z-index: 10;
+}
+html[data-season=Winter] .WinterPlay {
+  position: absolute;
+  padding: 0px 0px;
+  height: 6vh;
+  z-index: 10;
+  left: 0rem;
+  top: 0.5rem;
+  z-index: 10;
+}
+html[data-season=Winter] .WinterFour {
+  position: absolute;
+  padding: 0px 0px;
+  height: 6vh;
+  z-index: 10;
+  left: 9vh;
+  top: 0.5rem;
+  z-index: 10;
+}
+html[data-season=Winter] .WinterCopy {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1.5vh;
+}
+html[data-season=Winter] .wintercopy {
+  padding: 0px 0px;
+  height: 3vh;
+}
+html[data-season=Winter] .W1 {
+  height: 15vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 26.5vh;
+  left: 2vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w1 {
+  height: 14vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W2 {
+  height: 9vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 40vh;
+  left: 5vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w2 {
+  height: 9vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W3 {
+  height: 7vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 27vh;
+  left: 6vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w3 {
+  height: 7vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W4 {
+  height: 22vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 25vh;
+  right: 3vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w4 {
+  height: 22vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W5 {
+  height: 13vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 34vh;
+  right: 3vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w5 {
+  height: 13vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W6 {
+  height: 5.5vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25.5vh;
+  right: 2vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w6 {
+  height: 5.5vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W7 {
+  height: 8vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 18vh;
+  left: 4vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w7 {
+  height: 8vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W8 {
+  height: 2.3vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 19.5vh;
+  right: 4vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w8 {
+  height: 2.3vh;
+  padding: 0px 0px;
+}
+html[data-season=Winter] .W9 {
+  height: 3vh;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 23vh;
+  left: 40vw;
+  z-index: 1;
+}
+html[data-season=Winter] .w9 {
+  height: 3vh;
+  padding: 0px 0px;
 }
 
 html[data-season=Spring] .Back-Spring {
@@ -760,12 +1127,12 @@ html[data-season=Summer] .SummerButton {
   z-index: 99;
 }
 html[data-season=Summer] .SummerPlay {
-  height: 6.5vh;
+  height: 10vh;
   left: 0;
   z-index: 99;
 }
 html[data-season=Summer] .SummerFour {
-  height: 7.5vh;
+  height: 10.5vh;
   z-index: 99;
 }
 html[data-season=Summer] .Copyright2 {

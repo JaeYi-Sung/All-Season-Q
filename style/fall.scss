@@ -61,7 +61,7 @@ html[data-season=Winter] {
         height: 100vh;
         margin : 0px 0px;
         padding: 0px 0px;
-        background: linear-gradient($primary_pink, $basic_White);
+        background: linear-gradient(#34A8E1, #96D7F5, #C6EAFA);
         font-family: 'Noto Sans KR', sans-serif;
     
         margin: 0rem 0rem;
@@ -71,6 +71,418 @@ html[data-season=Winter] {
         align-items: center;    //세로 정렬
         flex-direction: column;     //아이템 위아래 정렬
         z-index: 1;
+    }
+
+    .titleWinter{
+        width: 100vw;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 5vh;
+        //left: 3vw;
+        z-index: 3;
+    }
+
+    .titlewinter{
+        padding: 0px 0px;
+        width: calc(100vw);
+    }
+
+    .WinterPhoto{
+        height: 38vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 27vh;
+        z-index: 10;
+    }
+    
+    .winterphoto {
+        padding: 0px 0px;
+        height: calc(38vh);
+    }
+
+    .ww1{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #EAF8FF;
+        box-shadow: 0px 0px 10vh 10vh #EAF8FF;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        top: 52vh;
+        left: 10vw;
+        width: 7vh;
+        height: 5vh;
+    }
+
+    .ww2{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #EAF8FF;
+        box-shadow: 0px 0px 8vh 8vh #EAF8FF;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        bottom: 32vh;
+        left: 20vw;
+        width: 10vh;
+        height: 5vh;
+    }
+
+    .ww3{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #EAF8FF;
+        box-shadow: 0px 0px 10vh 10vh #EAF8FF;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        bottom: 38vh;
+        right: 20vw;
+        width: 12vh;
+        height: 5vh;
+    }
+
+    .ww4{
+        padding: 0px 0px;
+        margin: 0rem 0rem;
+        border-radius: 50%;
+        background-color: #EAF8FF;
+        box-shadow: 0px 0px 7vh 7vh #EAF8FF;
+        position: absolute;
+        overflow: hidden;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        z-index: 0;
+        top: 50vh;
+        right: 5vw;
+        width: 18vh;
+        height: 5vh;
+    }
+
+    .WinterSong {
+        height: 10vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom : 27vh;
+        z-index: 2;
+    }
+    
+    .wintersong {
+        padding: 0px 0px;
+        height: calc(10vh);
+    }
+
+    .WinterCover {
+        height: 5vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        right: 15vw;
+        bottom : 23vh;
+    }
+    
+    .wintercover {
+        padding: 0px 0px;
+        height: calc(5vh);
+    }
+
+    .WinterName {
+        height: 7vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 15vh;
+        left: 50vw;
+        z-index: 2;
+    }
+    
+    .wintername {
+        padding: 0px 0px;
+        height: calc(7vh);
+    }
+
+    .WinterSeason{
+        height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 10vh;
+        left: 10vw;
+        z-index: 10;
+    }
+
+    .WinterMove {
+        height: 15vh;
+        width: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .WinterToSpring{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: -3.5vh;
+        left: 1.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    
+    .WinterToSummer{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: -3.5vh;
+        left: 3.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    
+    .WinterToFall{
+        padding: 0px 0px;
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 3.5vh;
+        left: -8.5vh;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    
+    .winterseason{
+        padding: 0px 0px;
+        height: calc(15vh);
+    }
+
+    .WinterButton {
+        height: 6vh;
+        width: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        right: 3rem;
+        bottom : 8vh;
+        z-index: 10;
+    }
+
+    .WinterPlay {
+        position: absolute;
+        padding: 0px 0px;
+        height: calc(6vh);
+        z-index: 10;
+        left: 0rem;
+        top: 0.5rem;
+        z-index: 10;
+    }
+
+    .WinterFour {
+        position: absolute;
+        padding: 0px 0px;
+        height: calc(6vh);
+        z-index: 10;
+        left: 9vh;
+        top: 0.5rem;
+        z-index: 10;
+    }
+
+    .WinterCopy {
+        //height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 1.5vh;
+    }
+    
+    .wintercopy {
+        padding: 0px 0px;
+        height: calc(3vh);
+    }
+
+    .W1{
+        height: 15vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 26.5vh;
+        left: 2vw;
+        z-index: 1;
+    }
+
+    .w1{
+        height: 14vh;
+        padding: 0px 0px;
+    }
+
+    .W2{
+        height: 9vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 40vh;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    .w2{
+        height: 9vh;
+        padding: 0px 0px;
+    }
+
+    .W3{
+        height: 7vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 27vh;
+        left: 6vw;
+        z-index: 1;
+    }
+
+    .w3{
+        height: 7vh;
+        padding: 0px 0px;
+    }
+    
+    .W4{
+        height: 22vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        bottom: 25vh;
+        right: 3vw;
+        z-index: 1;
+    }
+
+    .w4{
+        height: 22vh;
+        padding: 0px 0px;
+    }
+
+    .W5{
+        height: 13vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 34vh;
+        right: 3vw;
+        z-index: 1;
+    }
+
+    .w5{
+        height: 13vh;
+        padding: 0px 0px;
+    }
+
+    .W6{
+        height: 5.5vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 25.5vh;
+        right: 2vw;
+        z-index: 1;
+    }
+
+    .w6{
+        height: 5.5vh;
+        padding: 0px 0px;
+    }
+
+    .W7{
+        height: 8vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 18vh;
+        left: 4vw;
+        z-index: 1;
+    }
+
+    .w7{
+        height: 8vh;
+        padding: 0px 0px;
+    }
+
+    .W8{
+        height: 2.3vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 19.5vh;
+        right: 4vw;
+        z-index: 1;
+    }
+
+    .w8{
+        height: 2.3vh;
+        padding: 0px 0px;
+    }
+
+    .W9{
+        height: 3vh;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        position: absolute;
+        top: 23vh;
+        left: 40vw;
+        z-index: 1;
+    }
+
+    .w9{
+        height: 3vh;
+        padding: 0px 0px;
     }
 }
 
@@ -890,13 +1302,13 @@ html[data-season=Summer] {
     }
     
     .SummerPlay {
-        height: 6.5vh;
+        height: 10vh;
         left: 0;
         z-index: 99;
     }
     
     .SummerFour {
-        height: 7.5vh;
+        height: 10.5vh;
         z-index: 99;
     }
 

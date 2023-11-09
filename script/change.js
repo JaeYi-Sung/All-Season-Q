@@ -1,13 +1,13 @@
 
-// let today = new Date();   
+let today = new Date();   
 
-// let year = today.getFullYear(); // 년도
-// let month = today.getMonth() + 1;  // 월
-// let date = today.getDate();  // 날짜
-// let day = today.getDay();  // 요일
+let year = today.getFullYear(); // 년도
+let month = today.getMonth() + 1;  // 월
+let date = today.getDate();  // 날짜
+let day = today.getDay();  // 요일
 const body = document.querySelector("body");
 
-let month = 3;
+//let month = 12;
 //var tempSeason;
 console.log(month);
 
@@ -78,6 +78,19 @@ document.querySelector(".SpringToWinter").addEventListener("click", function(){
     document.querySelector("html").dataset.season="Winter";
 });
 
+//Winter Move
+document.querySelector(".WinterToSummer").addEventListener("click", function(){
+    document.querySelector("html").dataset.season="Summer";
+    isSummer();
+});
+
+document.querySelector(".WinterToFall").addEventListener("click", function(){
+    document.querySelector("html").dataset.season="Fall";
+});
+
+document.querySelector(".WinterToSpring").addEventListener("click", function(){
+    document.querySelector("html").dataset.season="Spring";
+});
 
 //BackGround Effect
 // const tempSeason = document.querySelector("html").dataset.season.addEventListener("change")
